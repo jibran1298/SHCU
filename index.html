@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type='text/javascript' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <style>
+    body {
+      background: #fff;
+      display: flex;
+      height: 100vh;
+      margin: 0;
+
+
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    .myvideo {
+      background: white;
+      background-image: url(http://cdn.onlinewebfonts.com/svg/img_80532.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      max-width:100%;
+      border-radius: 2px;
+      padding: 0;
+      border:1px solid black;
+    }
+
+  </style>
+</head>
+<body>
+  <video id="remoteVideo" autoplay style="margin-left:2px;"></video><br/>
+  <video class="myvideo" id="localVideo" autoplay muted></video>
+  
+  <script src="script.js"></script>
+</body>
+</html>
