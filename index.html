@@ -7,11 +7,7 @@
   <style>
     body {
       background: #fff;
-      display: flex;
-      height: 100vh;
       margin: 0;
-
-
       font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     }
     .myvideo {
@@ -30,9 +26,10 @@
   </style>
 </head>
 <body>
+    <center><button onclick="goBack()" style="padding:15px;background-color: crimson;color: white;width:90%;"><b>End Call</b></button></center>
   <video id="remoteVideo" autoplay style="margin-left:2px;"></video><br/>
   <center><button onclick="goBack()" style="padding:15px;background-color: crimson;color: white;"><b>End Call</b></button></center>
-  <video class="myvideo" id="localVideo" autoplay muted></video>
+ 
   
   <script src="script.js"></script>
   
